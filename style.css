@@ -1,0 +1,730 @@
+*{ margin: 0; padding: 0; }
+img{ max-width: 100%; }
+
+body {
+	background: url(./img/main_header_images.png) no-repeat center;
+	background-size: cover;
+	height: 885px;
+	position: relative;
+}
+
+.t-center { text-align: center; }
+.t-right{ text-align: right; }
+
+.d-flex { display: flex; }
+.justify-content-between { justify-content: space-between; }
+
+/* Header Section Start */
+.header-top{
+	background: url(./img/background_top.png), no-repeat center top;
+	background-size: contain;
+	height: 563px;
+}
+
+
+.header-wrapper {
+	max-width: 1050px;
+	margin: 0 auto;
+	background: url(./img/menu_bg.png) no-repeat center center;
+	background-size: auto;
+	padding: 2% 0;
+	padding-bottom: 2.5%;
+}
+
+.header-menu-left {
+	background: #E1ECF2;
+	width: 260px;
+	height: 78px;
+	border: 8px solid #fff;
+	border-radius: 20px;
+	transform: rotate(-10deg);
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 1%;
+	position: absolute;
+	top: -145px;
+	left: 18%;
+}
+.header-menu-left p {
+   color: #299FCA;
+}
+
+.header-menu {}
+.header-menu ul {
+	list-style: none;
+	justify-content: flex-start;
+	margin-top: -1%;
+	margin-left: 35%;
+}
+.header-menu ul li{}
+.header-menu ul li a {
+	text-decoration: none;
+	margin: 0 18px;
+	color: #fff;
+	font-size: 18px;
+}
+.header-menu ul li a:hover{ text-decoration: underline; color: antiquewhite;}
+/* Header Section End */
+
+/* Aeroplane Section Start */
+.aeroplane-section {
+	padding: 140px 0;
+	padding-bottom: 0;
+}
+.back-shape {
+	/* width: 100%;
+	height: 351px;
+	background: url(./img/header_back_bg.png) top center;
+	background-size: cover;
+	position: relative;
+	top: -130px;
+	left: 0;
+	z-index: -1; */
+}
+.back-shape img {
+	width: 100%;
+	margin-top: -9%;
+}
+
+.aeroplane-wrapper{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.plane-left{
+	position: relative;
+}
+.plane-left-text {
+	position: absolute;
+	top: 40%;
+	left: 27%;
+	max-width: 30%;
+	text-align: center;
+}
+.plane-left-text p {
+	color: #D5D10D;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+
+
+
+.booking-form {
+	width: 300px;
+	height: auto;
+	background: linear-gradient(#299FCA, #299FCA), url(./img/header_center_content_right_bg_two.png) no-repeat center bottom;
+	border: 8px solid #7EBEE0;
+	padding: 15px;
+	text-align: right;
+	border-radius: 5%;
+	z-index: 3;
+	position: relative;
+	left: 60%;
+	bottom: 0;
+	margin-top: -54%;
+}
+.online-booking {
+	background: url(./img/header_center_content_right_shape_bg.png) no-repeat center center;
+	position: relative;
+	left: -85px;
+	top: 0;
+	padding: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+
+#name {
+	width: 75%;
+}
+#email {
+	width: 75%;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#package {
+	width: 75%;
+	background: #fff;
+	border: 3px solid #7EBEE0;
+	padding: 2%;
+	color: #299FCA;
+	font-weight: bold;
+}
+#message {
+	width: 68%;
+	border: 3px solid #7EBEE0;
+	height: 90px;
+	padding: 2% 2%;
+	color: #299FCA;
+	font-family: Arial;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+
+.booking-form input {
+	margin: 2% 0;
+	border: 3px solid #7EBEE0;
+	padding: 2% 2%;
+	font-size: 14px;
+	color: #299FCA;
+}
+.booking-form label {
+	color: #fff;
+	font-size: 18px;
+}
+
+.booking-form select {
+	margin: 3% 0;
+}
+
+.all-btn {
+	margin-top: 3%;
+	background: #f8f80a;
+	padding: 2% 5%;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	transition: 500ms;
+}
+.all-btn:hover{
+	background: #299FCA;
+	border: 1px solid #f8f80a;
+	color: #fff;
+	cursor: pointer;
+}
+
+.step-image {
+	width: 20%;
+}
+/* Aeroplane Section End */
+
+
+
+.special-offers {
+	background: url(./img/header_font_bg.png) no-repeat top center;
+	background-size: cover;
+	padding-top: 90px;
+	margin-top: -11%;
+	z-index: 5;
+	position: relative;
+	max-width: 90%;
+	padding-bottom: 20px;
+}
+
+
+.s-offers-wrapper {
+	margin: 0 60px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 250px;
+	align-items: center;
+}
+.s-offers-wrapper h2 {
+	color: #fff;
+	font-size: 28px;
+}
+
+.offer-price {
+	color: #fff;
+	flex-basis: 39%;
+	margin-right: 5%;
+	margin-top: 10%;
+}
+.offer-price h2 {
+	font-size: 28px;
+	margin-bottom: 10%;
+}
+
+.offer-price-items {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+}
+
+.price-item {
+	margin-bottom: 6%;
+}
+
+.price-item:first-child {
+	border-bottom: 1px dashed #fff;
+	padding-bottom: 2%;
+}
+
+
+.p-item-img-text {
+	display: flex;
+	align-items: center;
+}
+.price-item-img {
+	margin-right: 2%;
+}
+.price-item-img img {
+	width: 120px;
+	height: 55px;
+}
+
+.price-item-text {
+	margin-top: -2%;
+}
+.price-item-text h5 {
+	font-size: 17.5px;
+	font-weight: 800;
+	margin-bottom: 2%;
+}
+.price-item-text p{}
+
+.p-amount-readmore {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 3%;
+}
+.p-amount-readmore h1 {
+	margin-right: 2%;
+	font-size: 28px;
+	font-weight: 100;
+}
+.p-amount-readmore a {
+	margin-top: 0;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	padding: 1% 2%;
+	background: #d9d914;
+}
+
+.p-amount-readmore a:hover{
+	background: #127ea5;
+}
+
+
+
+
+/* Offer Schedule */
+.offer-schedule {
+	flex-basis: 56%;
+}
+.o-scdule-title {
+	justify-content: space-between;
+	border-bottom: 2px solid #74DAFF;
+	overflow: hidden;
+	align-items: flex-end;
+}
+.tours-photo{}
+.tours-photo a {
+	text-decoration: none;
+	padding: 7% 28%;
+	font-size: 15px;
+	font-family: Arial;
+	border-radius: 7px 7px 0 0;
+}
+.tours-photo a:first-child {
+	background-color: #81FFFF;
+	color: #299FCA;
+}
+.tours-photo a:last-child {
+	background-color: #299FCA;
+	color: #81FFFF;
+	margin-left: 15%;
+	transition: 600ms;
+}
+
+.tours-photo a:last-child:hover{
+	color: #299FCA;
+	background-color: #81FFFF;
+}
+
+.spcial-summer-offer {}
+.spcial-summer-offer p {
+	background: #f0f033;
+	width: 190px;
+	height: 150px;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 50%;
+	color: #64AFFC;
+	font-size: 40px;
+	font-weight: 600;
+	position: relative;
+	top: 54px;
+}
+.spcial-summer-offer p span {
+	font-size: 27px;
+}
+.spcial-summer-offer .span-offer {
+	background: #34ABD6;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 18px;
+	border: 5px solid #fff;
+	position: relative;
+	bottom: -130px;
+	right: 33px;
+}
+
+
+.list-items{}
+.list-items ul {
+	margin-top: 2%;
+}
+.list-items ul li {
+	color: #fff;
+	margin-bottom: 1.5%;
+}
+.list-items ul li span {
+	color: #81FFFF;
+	margin-right: 2%;
+}
+.list-items ul li span i{}
+.list-items ul li p {
+	margin: 0 auto;
+	margin-left: 0;
+}
+
+
+.list-items ul li a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 10%;
+}
+
+
+
+/* ================ Find Tourists Style Start ================ */
+.find-tourists{
+	background: #D6E6EF;
+	padding: 50px 0;
+}
+.f-tourists-sec-title{}
+.f-tourists-sec-title h1 {
+	color: #4690B4;
+	font-size: 28px;
+	margin-bottom: 8px;
+}
+.f-tourists-sec-title a {
+	text-decoration: none;
+	color: #6AB5D0;
+}
+
+.f-tourist-middle {
+	background: url(./img/map.png) no-repeat center center;
+	padding: 140px 400px;
+}
+.bangladesh-tourism {
+	background: #f2f2f2;
+	width: 220px;
+	padding: 20px;
+	border-radius: 3%;
+	position: relative;
+}
+.bangladesh-tourism::after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: -150px;
+	right: -177px;
+	background: url(./img/after_bg.png) no-repeat top center;
+}
+
+.bangladesh-tourism h3 {
+	margin: 7% 0;
+	margin-bottom: 3%;
+	font-size: 23px;
+	color: #7D7D7D;
+}
+
+.tourism-items{
+	flex-direction: column;
+}
+.tourism-item {
+	margin-bottom: 4%;
+}
+.tourism-item img{
+	margin-right: 3%;
+}
+.tourism-item .t-item-explore{}
+.tourism-item .t-item-explore h5 {
+	color: #7d7d7dcc;
+	font-size: 17px;
+	margin-bottom: 2%;
+}
+.tourism-item .t-item-explore p {
+	color: #A4A4A4;
+	font-size: 14px;
+}
+/* ================ Find Tourists Style End ================ */
+
+
+/* ================ Footer Style Start ================ */
+.footer-section{
+	background-color: #127EA5;
+	padding: 30px 0;
+}
+.footer-wrapper{
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+}
+.newsletter{}
+.contact-us{}
+.contact-form{
+	flex-basis: 20%;
+}
+
+.newsletter h2 {
+	color: #fff;
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: 800;
+}
+.underline {
+	width: 62px;
+	height: 2px;
+	background: #81FFFF;
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+.newsletter form {
+	align-items: center;
+}
+.newsletter input {
+	background: url(./img/input_bg.png) no-repeat center;
+	border: none;
+	border-radius: 0 0 10px 10px;
+	background-size: cover;
+	padding: 5% 40%;
+	margin-right: 4%;
+	padding-left: 5%;
+	color: #fff;
+}
+.newsletter .all-btn {
+	margin-top: 0;
+	background: #fff;
+	color: #127EA5;
+	padding: 3% 5%;
+}
+
+.newsletter .all-btn:hover{
+	color: #fff;
+	background-color: #127EA5;
+	border: 1px solid #fff;
+}
+.newsletter h4 {
+	margin-top: 5%;
+	color: #fff;
+	font-size: 18px;
+}
+.newsletter .social-icon{}
+.newsletter .social-icon a {
+	color: #81FFFF;
+	margin-right: 5%;
+	font-size: 18px;
+}
+.newsletter .social-icon a i{
+	transition: 800ms;
+}
+
+.social-icon a:first-child i{
+	animation: first 3s alternate infinite;
+}
+.social-icon a:nth-child(2) i{
+	transform: scale(1.2);
+	animation: two 1s alternate infinite;
+}
+.social-icon a:last-child i{
+	animation: three 3s alternate infinite;
+}
+@keyframes first{
+	0%			{transform: scale(1);}
+	50%		{transform: scale(1.2); color: #38cece;}
+	100%		{transform: scale(1.5); color: #17acac;}
+}
+@keyframes two{
+	0%			{transform: rotate(-10deg);}
+	50%		{transform: rotate(0deg); color: #38cece;}
+	100%		{transform: rotate(10deg); color: #17acac}
+}
+@keyframes three{
+	0%			{transform: scale(1.5);}
+	50%		{transform: scale(1.2); color: #38cece;}
+	100%		{transform: scale(1); color: #17acac}
+}
+
+
+
+.newsletter .social-icon a i:hover{
+	cursor: pointer;
+}
+
+.contact-us h2{
+	color: #fff;
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: 800;
+}
+
+
+.contact-us p {
+	color: #fff;
+	line-height: 30px;
+}
+.contact-form h2{
+	color: #fff;
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: 800;
+}
+.contact-form form{
+	flex-direction: column;
+}
+.contact-form form input {
+	background: url(./img/input_bg.png) no-repeat center;
+	background-size: cover;
+	border: none;
+	margin-bottom: 4%;
+	padding: 4% 6%;
+	color: #fff;
+}
+.contact-form form textarea {
+	background: url(./img/input_bg.png) no-repeat center;
+	background-size: cover;
+	margin-bottom: 4%;
+	padding: 6%;
+	color: #fff;
+	border: none;
+	border-radius: 4px 4px 10px 10px;
+	width: 224px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.contact-form form .all-btn{
+	margin-top: 0;
+	background: #fff;
+	color: #127EA5;
+	padding: 3% 5%;
+	width: 35%;
+}
+.contact-form form .all-btn:hover{
+	color: #fff;
+	background-color: #127EA5;
+	border: 1px solid #fff;
+}
+
+.footer-wrapper h5 {
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 1px;
+	margin-top: 2%;
+}
+.footer-wrapper .footer-a {
+	color: #81ffff;
+	text-decoration: none;
+	font-size: 22px;
+	font-style: italic;
+}
+
+
+.footer-wrapper .footer-a {
+	position: relative;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 4px;
+	overflow: hidden;
+	background: linear-gradient(90deg, #1c94da, #fff, #1432bb);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: animate 3s linear infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+ }
+ 
+ @keyframes animate {
+	0% {
+	  background-position: -500%;
+	}
+	100% {
+	  background-position: 500%;
+	}
+ }
+
+ 
+ .container {
+	width: 150vh;
+	height: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.shadows {
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: -15px 5px 20px #ced0d3;
+	color: white;
+	letter-spacing: -0.05em;
+	font-family: 'Anton', Arial, sans-serif;
+	user-select: none;
+	text-transform: uppercase;
+	font-size: 124px;
+	transition: all 0.50s ease-out;
+	opacity: 0.3;
+}
+ .shadows:hover {
+	  text-shadow: -16px 6px 15px #000;
+	  position: relative;
+	  left: .5px;
+	  top: 0;
+ }
+
+.newsletter h2 {
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: -16px 6px 15px #000;
+	color: white;
+	letter-spacing: -0.05em;
+	font-family: 'Anton', Arial, sans-serif;
+	user-select: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	transition: all 0.25s ease-out;
+	opacity: 0.3;
+}
+.contact-us h2 {
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: -16px 6px 15px #000;
+	color: white;
+	letter-spacing: -0.05em;
+	font-family: 'Anton', Arial, sans-serif;
+	user-select: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	transition: all 0.25s ease-out;
+	opacity: 0.3;
+}
+.contact-form h2 {
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: -16px 6px 15px #000;
+	color: white;
+	letter-spacing: -0.05em;
+	font-family: 'Anton', Arial, sans-serif;
+	user-select: none;
+	text-transform: uppercase;
+	font-size: 25px;
+	transition: all 0.25s ease-out;
+	opacity: 0.3;
+}
+
+
+/* ================ Footer Style End ================ */
